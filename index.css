@@ -1,0 +1,75 @@
+:root{
+    --primaryColor: #F2C94C;
+}
+
+body{
+    margin: 0rem;
+    font-family: 'Kalam', cursive;
+}
+
+
+#txt-input{
+    width: 40%;
+    height: 17vh;
+    display: block;
+    margin: auto;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+}
+
+#output{
+    border: 1px solid black;
+    width: 40%;
+    height: 9vh;
+    display: block;
+    margin: auto;
+    margin-bottom: 12vh;
+}
+
+.navigation{
+    background-color: var(--primaryColor);
+    text-align: center;
+    padding: 1rem 0rem;
+    font-size: 1.5rem;
+    font-weight: normal;
+    height: 5rem;
+}
+
+.footer{
+    background-color: var(--primaryColor);
+    text-align: center;
+    padding: 2rem 0rem; 
+    height: 6rem;
+}
+
+#btn-translate{
+    background-color: var(--primaryColor);
+    padding: 1rem;
+    border: none;
+    font-size: 1.2rem;
+    font-family: 'Kalam', cursive;
+}
+
+.container{
+    display: block;
+    margin-left: 61vh;
+}
+
+.main-container{
+    max-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-content{
+    width: 40%;
+    margin-left: 60vh;
+    text-align: justify;
+    padding: 0rem;
+    margin-bottom: 3rem;
+}
+
+.footer-header{
+    display: block;
+    align-items: center;
+}
